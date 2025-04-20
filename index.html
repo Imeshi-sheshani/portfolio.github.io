@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Personal Portfolio Website</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+          <div class="logo-container">
+            <img src="image/logo.png" alt="Logo" class="logo" />
+          </div>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><button id="theme-toggle">🌙</button></li>
+          </ul>
+        </nav>
+      </header>
+            
+
+      <section id="home">
+        <div class="intro-container">
+            <div class="intro-text">
+                <h2>Hello, I'm <span class="name-highlight">Imeshi Sheshani</span></h2>
+                <p>Mobile App Developer | Web Developer | IoT Integrator </p>
+              </div>
+              
+          <div class="intro-image">
+            <img src="image/profileImage.png" alt="Profile Image" class="profile-img" />
+          </div>
+        </div>
+      </section>
+      
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      An enthusiastic and resourceful Software Engineer in training, pursuing a Bachelor’s degree in Information and Communication Technology with a specialization in Software Engineering at the University of Sri Jayewardenepura. Combines academic knowledge with hands-on project experience to develop user-focused and technically sound software applications. Brings a proactive mindset and a commitment to professional growth.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project-list">
+  
+      <!-- Project 1 -->
+      <div class="project">
+        <h3>PowerProx</h3>
+        <img src="image/power2.png" alt="Project 1" class="project-img" />
+        <p>Crafted and launched dynamic, real-time dashboards that brought live monitoring data to life with clarity and precision.</p>
+        <ul>
+          <li>Language: Dart</li>
+          <li>Tech Stack: Flutter</li>
+          <li>Database: SQL DB, Firebase, InfluxDB</li>
+        </ul>
+        <br>
+        <div class="project-links">
+          <a href="https://github.com/Imeshi-sheshani/IoT_Project-.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+  
+      <!-- Project 2 -->
+      <div class="project">
+        <h3>KidneyFY</h3>
+        <img src="image/KidneyFY1.jpeg" alt="Project 2" class="project-img" />
+        <p>A kidney donation system facilitating donor-recipient matching and communication.</p>
+        <ul>
+          <li>Language: HTML, CSS, JavaScript</li>
+          <li>Backend: PHP</li>
+        </ul>
+        <br>
+        <div class="project-links">
+          <a href="https://github.com/Imeshi-sheshani/KidneyFY-project.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+  
+      <!-- Project 3 -->
+      <div class="project">
+        <h3>Drone Controller</h3>
+        <img src="image/droneController.jpeg" alt="Project 3" class="project-img" />
+        <p>A mobile app to control and monitor drones using live telemetry.</p>
+        <ul>
+          <li>Language: C, C++, Java</li>
+          <li>Backend: Node.js</li>
+          <li>Database: MongoDB</li>
+        </ul>
+        <br>
+        <div class="project-links">
+          <a href="https://github.com/Imeshi-sheshani/drone-controller.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+  
+      <!-- Project 4 -->
+      <div class="project">
+        <h3>IoT Project</h3>
+        <img src="image/iot.png" alt="Project 4" class="project-img" />
+        <p>This project focuses on real-time IoT data collection and time series data retrieval. Sensor values are captured live and seamlessly passed to Firebase for cloud storage and further processing.</p>
+        <ul>
+          <li>Tech Stack: NodeRed, Firebase</li>
+        </ul>
+      </div>
+  
+    </div>
+  </section>
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action="https://formsubmit.co/imeshishashikala454@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      
+      <!-- Anti-bot field (optional but recommended) -->
+      <input type="hidden" name="_captcha" value="false">
+  
+      <!-- Redirect to thank you page (optional) -->
+      <input type="hidden" name="_next" value="https://yourdomain.com/thankyou.html">
+  
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  
+  
+
+ 
+  <footer>
+    <p>&copy; 2025 Imeshi Sheshani. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
